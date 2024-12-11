@@ -1,0 +1,50 @@
+body{
+    background-color: #45880e;
+}
+
+/*Barra superior*/
+.header-mobile{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 5px;
+    align-items: center;
+    height: 50px;
+}
+
+.header-mobile h1{
+    color: #fff7e5;
+    font-family: sans-serif;
+}
+
+#open-menu{
+    background-color: transparent;
+    border: none;
+}
+
+#open-menu i{
+    font-size: 24px;
+    color: #fff7e5;
+}
+
+/*Contenedor principal*/
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+
+main{
+    background-color: #fff7e5;
+    width: 75%;
+    height: auto;
+}
+
+.aside-visible{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+    text-align: center;
+}
+
+

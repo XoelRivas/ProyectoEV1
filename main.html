@@ -6,19 +6,20 @@
     <title>CarbaShop</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="./css/comun.css" />
+    <link rel="stylesheet" type="text/css" href="./css/styleCarbaShop.css" />
     <!--Adjuntar aquí el resto de archivos css y js-->
 </head>
 <body>
+    <header class="header-mobile">
+        <h1 class="logo">CarbaShop</h1>
+        <button class="open-menu" id="open-menu">
+            <i class="bi bi-list"></i>
+        </button>
+    </header>
     <div class="contenedor">
-        <header class="header-mobile">
-            <h1 class="logo">CarbaShop</h1>
-            <button class="open-menu" id="open-menu">
-                <i class="bi bi-list"></i>
-            </button>
-        </header>
         <main>
-            <h2 id="titulo-principal" class="titulo-principal">Todos los productos</h2>
             <div id="contenedor-productos" class="contenedor-productos">
+            <h2 id="titulo-principal" class="titulo-principal">Todos los productos</h2>
                 <!--
                 Esta sección ha de rellenarse con JS en base al siguiente formato:
 
@@ -34,9 +35,11 @@
             </div>
         </main>
         <aside class="aside-visible">
+            <!--
             <button class="close-menu" id="close-menu">
                 <i class="bi bi-x"></i>
             </button>
+            -->
             <header>
                 <h1 class="logo">CarbaShop</h1>
             </header>
