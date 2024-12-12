@@ -26,7 +26,7 @@ body{
 .contenedor{
     display: flex;
     justify-content: space-between;
-    height: auto;
+    height: calc(100vh - 20px);;
     margin: 10px 5px;
 }
 
@@ -36,55 +36,86 @@ main{
     width: 75%;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
 }
 
-#titulo-principal{
+.titulo-principal{
     padding: 10px;
     color: #316b0a;
 }
 
-#contenedor-productos{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    
-}
-
-.producto{
-    width: 290px;
+.carrito-producto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding: 10px;
-    text-align: center;
+    background-color: #e2e2e2;
+    border-radius: 8px;
+    color: #45880e;
+    margin-bottom: 10px;
 }
 
-.producto-imagen{
-    width: 250px;
-    height: 250px;
+.carrito-producto-imagen{
+    width: 50px;
+    height: 50px;
     border-radius: 8px;
     object-fit: contain;
 }
 
-.producto-detalles{
-    background-color: #45880e;
-    border-radius: 8px;
-    text-align: left;
-    padding: 5px;
-    color: #fff7e5;
+#carrito-acciones{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.producto-agregar{
-    width: 100%;
-    border-radius: 20px;
-    padding: 5px;
-    background-color: #fff7e5;
-    color:#316b0a;
+.carrito-acciones-derecha{
+    display: flex;  
+}
+
+.carrito-acciones-total{
+    display: flex;
+}
+
+.carrito-acciones-vaciar{
+    background-color: #e2e2e2;
     border: none;
+    padding: 10px;
+    border-radius: 8px;
+    color: #45880e;
 }
 
-.producto-agregar:hover{
+.carrito-acciones-vaciar:hover{
     background-color: #316b0a;
-    color: #fff7e5;
+    color: #e2e2e2;
     cursor: pointer;
 }
 
+.carrito-acciones-total{
+    background-color: #e2e2e2;
+    border: none;
+    padding: 10px;
+    border-radius: 8px 0 0 8px;
+    color: #45880e;
+}
+
+.carrito-acciones-comprar{
+    background-color: #45880e;
+    border: none;
+    padding: 10px;
+    border-radius: 0 8px 8px 0;
+    color: #fff7e5;
+}
+
+.carrito-acciones-comprar:hover{
+    background-color: #316b0a;
+    cursor: pointer;
+}
+
+#carrito-comprado{
+    color: #45880e;
+}
+
+/*Barra lateral*/
 .aside-visible{
     position: fixed;
     right: 0;
@@ -130,7 +161,6 @@ nav{
 .boton-menu:hover{
     background-color: #fff7e5;
     color: #45880e;
-    cursor: pointer;
 }
 
 .menu li:last-child {
