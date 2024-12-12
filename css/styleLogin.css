@@ -55,9 +55,11 @@ input[type="button"]{
 
 #submit:hover{
     background-color: #5cbf00;
+    cursor: pointer;
 }
 #limpiar:hover{
     background-color: #254906;
+    cursor: pointer;
 }
 
 .error-message {
