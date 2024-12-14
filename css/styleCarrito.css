@@ -111,6 +111,10 @@ main{
     cursor: pointer;
 }
 
+#carrito-vacio{
+    color: #45880e;
+}
+
 #carrito-comprado{
     color: #45880e;
 }
@@ -156,6 +160,10 @@ nav{
 
 .boton-menu i{
     padding: 10px;
+}
+
+.logo:hover{
+    cursor: pointer;
 }
 
 .boton-menu:hover{
