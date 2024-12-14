@@ -12,6 +12,10 @@ body{
     font-family: sans-serif;
 }
 
+.logo:hover{
+    cursor: pointer;
+}
+
 #open-menu{
     background-color: transparent;
     border: none;
@@ -45,8 +49,7 @@ main{
 
 #contenedor-productos{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .producto{
