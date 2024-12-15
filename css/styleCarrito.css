@@ -18,7 +18,7 @@ body{
 }
 
 #open-menu i{
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #fff7e5;
 }
 
@@ -26,21 +26,21 @@ body{
 .contenedor{
     display: flex;
     justify-content: space-between;
-    height: calc(100vh - 20px);;
-    margin: 10px 5px;
+    height: calc(100vh - 1.25rem);;
+    margin: 0.625rem 0.3125rem;
 }
 
 /*Contenedor productos*/
 main{
     background-color: #fff7e5;
     width: 75%;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 10px;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+    padding: 0.625rem;
 }
 
 .titulo-principal{
-    padding: 10px;
+    padding: 0.625rem;
     color: #316b0a;
 }
 
@@ -48,17 +48,17 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
+    padding: 0.625rem;
     background-color: #e2e2e2;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     color: #45880e;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 
 .carrito-producto-imagen{
-    width: 50px;
-    height: 50px;
-    border-radius: 8px;
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: 0.5rem;
     object-fit: contain;
 }
 
@@ -79,8 +79,8 @@ main{
 .carrito-acciones-vaciar{
     background-color: #e2e2e2;
     border: none;
-    padding: 10px;
-    border-radius: 8px;
+    padding: 0.625rem;
+    border-radius: 0.5rem;
     color: #45880e;
 }
 
@@ -93,16 +93,16 @@ main{
 .carrito-acciones-total{
     background-color: #e2e2e2;
     border: none;
-    padding: 10px;
-    border-radius: 8px 0 0 8px;
+    padding: 0.625rem;
+    border-radius: 0.5rem 0 0 0.5rem;
     color: #45880e;
 }
 
 .carrito-acciones-comprar{
     background-color: #45880e;
     border: none;
-    padding: 10px;
-    border-radius: 0 8px 8px 0;
+    padding: 0.625rem;
+    border-radius: 0 0.5rem 0.5rem 0;
     color: #fff7e5;
 }
 
@@ -125,10 +125,10 @@ main{
     right: 0;
     display: flex;
     flex-direction: column;
-    height: calc(100vh - 10px);
+    height: calc(100vh - 0.625rem);
     justify-content: space-between;
     width: 25%;
-    margin-right: 10px;
+    margin-right: 0.625rem;
 }
 
 .aside-visible header h1{
@@ -136,7 +136,7 @@ main{
 }
 
 .aside-visible nav{
-    margin-left: 40px;
+    margin-left: 2.5rem;
 }
 
 nav{
@@ -145,13 +145,13 @@ nav{
 }
 
 .menu li{
-    padding-bottom: 50px;
+    padding-bottom: 3.125rem;
 }
 
 .boton-menu{
     width: 90%;
-    border-radius: 10px;
-    padding: 10px;
+    border-radius: 0.625rem;
+    padding: 0.625rem;
     background-color: #45880e;
     color:#fff7e5;
     text-align: left;
@@ -159,7 +159,7 @@ nav{
 }
 
 .boton-menu i{
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 .logo:hover{
@@ -172,12 +172,12 @@ nav{
 }
 
 .menu li:last-child {
-    padding-top: 40px;
+    padding-top: 2.5rem;
     padding-bottom: 0;
 }
 
 .aside-visible footer{
-    margin-left: 40px;
+    margin-left: 2.5rem;
 }
 
 #close-menu{
