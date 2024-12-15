@@ -184,4 +184,108 @@ nav{
     display: none;
 }
 
+/*Footer*/
+footer p{
+    padding: 0.625rem;
+}
 
+
+/*Responsive*/
+
+@media(max-width:850px) {
+    .boton-menu{
+        display: flex;
+        align-items: center;
+        padding: 0;
+    }
+
+    .boton-carrito span{
+        padding: 0.3125rem;
+    }
+    
+}
+
+@media(max-width:675px) {
+
+}
+
+@media(max-width: 600px){
+    .header-mobile{
+        display: block;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #close-menu{
+        display: block;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        background-color: transparent;
+        border: none;
+        color: #fff7e5;
+        font-size: 1.5rem;
+        cursor: pointer;
+        z-index: 10; 
+    }
+
+    .close-menu i{
+        font-size: 1.5rem;
+    }
+
+    .aside-visible{
+        display: none;
+    }
+
+    .aside-visible .logo{
+        margin-top: 0.625rem;
+    }
+
+    .contenedor{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    main{
+        width: 100%;
+    }
+
+    .aside-visible.active{
+        display: flex;
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100vh;
+        width: 40%;
+        background-color: #45880e;
+        box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.2);
+        z-index: 10;
+    }
+
+    #open-menu{
+        font-size: 2rem;
+    }
+
+    .boton-menu{
+        padding: 1rem;
+    }
+
+    .menu li {
+        padding: 1rem 0;
+    }
+}
+
+@media(max-width:400px){
+    .aside-visible .logo{
+        margin-top: 2.3rem;
+    }
+
+    .aside-visible.active{
+        width: 50%;
+    }
+
+    .carrito-productos{
+        font-size: 0.8rem;
+    }
+}

@@ -181,6 +181,10 @@ footer p{
     .boton-categoria i{
         transform: rotate(90deg);
     }
+
+    .boton-carrito span{
+        padding: 0.3125rem;
+    }
 }
 
 @media(max-width:675px) {

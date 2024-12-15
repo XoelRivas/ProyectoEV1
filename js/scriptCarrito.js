@@ -137,3 +137,17 @@ document.querySelectorAll(".logo").forEach(logo => {
         window.location.href = "index.html";
     })
 })
+
+
+//Barra desplegable
+const openMenuButton = document.getElementById("open-menu");
+const closeMenuButton = document.getElementById("close-menu");
+const aside = document.querySelector(".aside-visible");
+
+openMenuButton.addEventListener("click", () =>{
+    aside.classList.add("active");
+});
+
+closeMenuButton.addEventListener("click", () => {
+    aside.classList.remove("active");
+});
